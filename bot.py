@@ -3,8 +3,10 @@ from telebot import types
 import sqlite3
 import os
 from datetime import datetime
+with open("mytoken.txt","r") as token_file:
+    bot_token = token_file.read().strip()
 
-bot = telebot.TeleBot('8008772489:AAF6pSVLc1b16WDx7awirW4SGKP8HhZ4pIM')
+bot = telebot.TeleBot(bot_token)
 
 admin_chat_id = 1013095495
 
