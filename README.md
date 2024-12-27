@@ -5,17 +5,16 @@ Telegram-бот для покупки одежды
 
 Установка и запуск
 1. Установите зависимости:
-   ```bash
-   pip install -r requirements.txt
-   
-2.Создайте базу данных:
-   ```bash
-   python database.py
+	```bash
+      pip install -r requirements.txt
 
+2. Создайте базу данных:
+	```bash
+      python database.py
 
-3.Запустите бота:
-    ```bash
-    python bot.py
+3. Запустите бота:
+	```bash
+      python bot.py
 
 Распределение ролей
 Александр: создание базы данных, таблиц и систему отзывов.
